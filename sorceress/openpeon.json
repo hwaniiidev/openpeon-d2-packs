@@ -1,0 +1,119 @@
+{
+  "cesp_version": "1.0",
+  "name": "d2_sorceress",
+  "display_name": "Sorceress (Diablo 2)",
+  "description": "The voice lines of the Sorceress, the iconic farming class in Diablo II",
+  "version": "1.0.0",
+  "author": {
+    "name": "hwaniiidev",
+    "github": "hwaniiidev"
+  },
+  "license": "CC-BY-NC-4.0",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_timetodie.wav",
+          "label": "Time to die"
+        },
+        {
+          "file": "sounds/Sor_yes_question.wav",
+          "label": "Yes?"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_yes_statement.wav",
+          "label": "Yes"
+        },
+        {
+          "file": "sounds/Sor_okay.wav",
+          "label": "Okay"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_giftforyou.wav",
+          "label": "Gift for you"
+        },
+        {
+          "file": "sounds/Sor_die.wav",
+          "label": "Die!"
+        },
+        {
+          "file": "sounds/Sor_thisisyours.wav",
+          "label": "This is yours"
+        },
+        {
+          "file": "sounds/Sor_thisforyou.wav",
+          "label": "This for you"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_impossible.wav",
+          "label": "Impossible."
+        },
+        {
+          "file": "sounds/Sor_cantdohere.wav",
+          "label": "Can't do"
+        },
+        {
+          "file": "sounds/Sor_cantuseyet.wav",
+          "label": "Can't use yet"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_pleasecontinue.wav",
+          "label": "Please continue"
+        },
+        {
+          "file": "sounds/Sor_help.wav",
+          "label": "Help"
+        },
+        {
+          "file": "sounds/Sor_helpme.wav",
+          "label": "Help me"
+        }
+      ]
+    },
+    "resource.limit": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_cantcarrymore.wav",
+          "label": "Can't carry any more"
+        },
+        {
+          "file": "sounds/Sor_Ineedmana.wav",
+          "label": "Need mana"
+        },
+        {
+          "file": "sounds/Sor_notenoughmana.wav",
+          "label": "Not enough mana"
+        }
+      ]
+    },
+    "user.spam": {
+      "sounds": [
+        {
+          "file": "sounds/Sor_oops.wav",
+          "label": "Oops"
+        },
+        {
+          "file": "sounds/Sor_noway.wav",
+          "label": "No way"
+        }
+      ]
+    }
+  }
+}
